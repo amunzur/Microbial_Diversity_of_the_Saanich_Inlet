@@ -1,4 +1,4 @@
-# :atom: :petri_dish: Saanich inlet diversity :dna: :microscope:
+# Saanich inlet diversity :dna: :microscope:
 This repo contains the R scripts that were used to generate the figures presented in the metagenomics project paper for the MICB 405 course. You can recreate all the figures in the paper by following the instructions below. 
 
 The repository is organized in such a way to allow users who wish to reproduce our analysis to do so in a simple way. The scripts folder is divided into further subdirectories highlighting the main steps we took in our analysis. 
