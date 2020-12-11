@@ -3,11 +3,11 @@ This repo contains the R scripts that were used to generate the figures presente
 
 The repository is organized in such a way to allow users who wish to reproduce our analysis to do so in a simple way. The scripts folder is divided into further subdirectories highlighting the main steps we took in our analysis. 
 
-**CC_plots** folder contains two scripts that makes completion - contamination plots for MAGs generated with MaxBin2 and MetaBAT (Figure S1). 
-**Geochemical-water_conditions** folder contains scripts for all figures showing geochemical data (Figure 3, Figure 4A, Figure S2 and S4) across depths and seasons. 
+**CC_plots** folder contains two scripts that makes completion - contamination plots for MAGs generated with MaxBin2 and MetaBAT (Figure S1).  
+**Geochemical-water_conditions** folder contains scripts for all figures showing geochemical data (Figure 3, Figure 4A, Figure S2 and S4) across depths and seasons.  
 **PROKKA** folder contains 2 scripts:  
-* prokka_check_length.R confirms that the gene lengths match in two separate PROKKA outputs. 
-* filter_prokka_by_gene.R filters the PROKKA output to only retain the genes of interest and plot the figure 4B. 
+* prokka_check_length.R confirms that the gene lengths match in two separate PROKKA outputs.  
+* filter_prokka_by_gene.R filters the PROKKA output to only retain the genes of interest and plot the figure 4B.  
 
 **TreeSAPP** folder contains the following scripts:  
 * bubble_plot_class.R is used to create figure 5B.  
