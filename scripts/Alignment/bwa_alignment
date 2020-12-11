@@ -1,0 +1,169 @@
+
+###############################################################################################
+# 100m
+###############################################################################################
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__106_1-contigs.fa | samtools view -bS - > Bin_METABAT__106_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__136_2-contigs.fa | samtools view -bS - > Bin_METABAT__136_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__142_2-contigs.fa | samtools view -bS - > Bin_METABAT__142_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__21-contigs.fa | samtools view -bS - > Bin_METABAT__21-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_1-contigs.fa | samtools view -bS - > Bin_METABAT__23_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_2-contigs.fa | samtools view -bS - > Bin_METABAT__23_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_1-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_2-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_2.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_1-contigs.fa | samtools view -bS - > Bin_METABAT__99_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_2-contigs.fa | samtools view -bS - > Bin_METABAT__99_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs.fa | samtools view -bS - > All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__106_2-contigs.fa | samtools view -bS - > Bin_METABAT__106_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__106_2-contigs.fa | samtools view -bS - > Bin_METABAT__106_2-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__109-contigs.fa | samtools view -bS - > Bin_METABAT__109-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__11_sub-contigs.fa | samtools view -bS - > Bin_METABAT__11_sub-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__136_3-contigs.fa | samtools view -bS - > Bin_METABAT__136_3-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__137-contigs.fa | samtools view -bS - > Bin_METABAT__137-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__142_1-contigs.fa | samtools view -bS - > Bin_METABAT__142_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__165_1-contigs.fa | samtools view -bS - > Bin_METABAT__165_1-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__183-contigs.fa | samtools view -bS - > Bin_METABAT__183-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__187-contigs.fa | samtools view -bS - > Bin_METABAT__187-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__3_sub-contigs.fa | samtools view -bS - > Bin_METABAT__3_sub-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__41-contigs.fa | samtools view -bS - > Bin_METABAT__41-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__48-contigs.fa | samtools view -bS - > Bin_METABAT__48-contigs.bam &
+
+bwa mem SI072_100m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__80-contigs.fa | samtools view -bS - > Bin_METABAT__80-contigs.bam &
+
+
+
+
+
+
+###############################################################################################
+# 120m
+###############################################################################################
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__106_1-contigs.fa | samtools view -bS - > Bin_METABAT__106_1-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__136_2-contigs.fa | samtools view -bS - > Bin_METABAT__136_2-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__142_2-contigs.fa | samtools view -bS - > Bin_METABAT__142_2-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__21-contigs.fa | samtools view -bS - > Bin_METABAT__21-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_1-contigs.fa | samtools view -bS - > Bin_METABAT__23_1-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_2-contigs.fa | samtools view -bS - > Bin_METABAT__23_2-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_1-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_1-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_2-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_2contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_1-contigs.fa | samtools view -bS - > Bin_METABAT__99_1-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_2-contigs.fa | samtools view -bS - > Bin_METABAT__99_2-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs.fa | samtools view -bS - > All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__106_2-contigs.fa | samtools view -bS - > Bin_METABAT__106_2-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__109-contigs.fa | samtools view -bS - > Bin_METABAT__109-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__11_sub-contigs.fa | samtools view -bS - > Bin_METABAT__11_sub-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__136_3-contigs.fa | samtools view -bS - > Bin_METABAT__136_3-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__137-contigs.fa | samtools view -bS - > Bin_METABAT__137-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__142_1-contigs.fa | samtools view -bS - > Bin_METABAT__142_1-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__165_1-contigs.fa | samtools view -bS - > Bin_METABAT__165_1-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__183-contigs.fa | samtools view -bS - > Bin_METABAT__183-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__187-contigs.fa | samtools view -bS - > Bin_METABAT__187-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__3_sub-contigs.fa | samtools view -bS - > Bin_METABAT__3_sub-contigs120.bam &
+
+bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__41-contigs.fa | samtools view -bS - > Bin_METABAT__41-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__48-contigs.fa | samtools view -bS - > Bin_METABAT__48-contigs120.bam &
+
+nohup bwa mem SI072_120m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__80-contigs.fa | samtools view -bS - > Bin_METABAT__80-contigs120.bam &
+
+
+###############################################################################################
+# 200
+###############################################################################################
+
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__106_2-contigs.fa | samtools view -bS - > Bin_METABAT__106_2-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__109-contigs.fa | samtools view -bS - > Bin_METABAT__109-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__11_sub-contigs.fa | samtools view -bS - > Bin_METABAT__11_sub-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__136_3-contigs.fa | samtools view -bS - > Bin_METABAT__136_3-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__137-contigs.fa | samtools view -bS - > Bin_METABAT__137-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__142_1-contigs.fa | samtools view -bS - > Bin_METABAT__142_1-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__165_1-contigs.fa | samtools view -bS - > Bin_METABAT__165_1-contigs200.bam & 
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__183-contigs.fa | samtools view -bS - > Bin_METABAT__183-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__187-contigs.fa | samtools view -bS - > Bin_METABAT__187-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__41-contigs.fa | samtools view -bS - > Bin_METABAT__41-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__48-contigs.fa | samtools view -bS - > Bin_METABAT__48-contigs200.bam &
+
+nohup bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__80-contigs.fa | samtools view -bS - > Bin_METABAT__80-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__106_1-contigs.fa | samtools view -bS - > Bin_METABAT__106_1-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__136_2-contigs.fa | samtools view -bS - > Bin_METABAT__136_2-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__142_2-contigs.fa | samtools view -bS - > Bin_METABAT__142_2-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__21-contigs.fa | samtools view -bS - > Bin_METABAT__21-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_1-contigs.fa | samtools view -bS - > Bin_METABAT__23_1-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__23_2-contigs.fa | samtools view -bS - > Bin_METABAT__23_2-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_1-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_1-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__27_sub_1_1_2_2-contigs.fa | samtools view -bS - > Bin_METABAT__27_sub_1_1_2_2contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_1-contigs.fa | samtools view -bS - > Bin_METABAT__99_1-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_2-contigs.fa | samtools view -bS - > Bin_METABAT__99_2-contigs200.bam &
+
+burdan devam: 
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs.fa | samtools view -bS - > All_Bac_Arc_Bins/Bin_METABAT__99_3-contigs200.bam &
+
+bwa mem SI072_200m_raw_reads.fastq.gz /projects/micb405/resources/metagenomics_data/MICB405_Project_Files/09_Bins_Sorted_By_Quality/Med_HQ_Bins/Bin_METABAT__3_sub-contigs.fa | samtools view -bS - > Bin_METABAT__3_sub-contigs200.bam &
+
+
+
