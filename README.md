@@ -1,4 +1,4 @@
-# Saanich inlet diversity :dna: :microscope:
+# :atom: :petri_dish: Saanich inlet diversity :dna: :microscope:
 This repo contains the R scripts that were used to generate the figures presented in the metagenomics project paper for the MICB 405 course. You can recreate all the figures in the paper by following the instructions below. 
 
 The repository is organized in such a way to allow users who wish to reproduce our analysis to do so in a simple way. The scripts folder is divided into further subdirectories highlighting the main steps we took in our analysis. 
@@ -17,3 +17,5 @@ The repository is organized in such a way to allow users who wish to reproduce o
 * visualize_treesapp_genes.R generates the bar plot in figure 4C and allow us to compare the performance of PROKKA to TreeSAPP in terms of nitrogen cycle gene identification.  
 
 **Technical limitations** folder contains one script named mean_coverage.R to visualize the coverage information computed by DASTool. This script also makes figure 6. 
+
+Further clarification and code can be provided by the authors upon request by email. 
