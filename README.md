@@ -15,6 +15,10 @@ The repository is organized in such a way to allow users who wish to reproduce o
 * bubble_plot_class.R is used to create figure 5B.  
 * bubble_plot.R is used for making comprehensive bubble plots highlighting species and class information for genes of interest in figure S3.  
 * visualize_treesapp_genes.R generates the bar plot in figure 4C and allow us to compare the performance of PROKKA to TreeSAPP in terms of nitrogen cycle gene identification.  
+The following scripts are included in this folder, but we decided not to include the figures they generate in the final manuscript. They are provided here as extra material.  
+* class_bargraphs.R script makes bargraphs showing the most abundant phyla based on TreeSAPP annotations.  
+* species_bargraphs.R script similarly makes bargraphs showing species information.  
+* combined_bargraphs.R script combined information from the two scripts mentioned above makes bargraphs for each gene of interest showing both species and class abundance. 
 
 **Technical limitations** folder contains one script named mean_coverage.R to visualize the coverage information computed by DASTool. This script also makes figure 6. 
 
