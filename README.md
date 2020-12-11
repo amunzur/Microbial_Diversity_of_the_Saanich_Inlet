@@ -10,8 +10,8 @@ prokka_check_length.R confirms that the gene lengths match in two separate PROKK
 filter_prokka_by_gene.R filters the PROKKA output to only retain the genes of interest and plot the figure 4B. 
 
 **TreeSAPP** folder contains the following scripts:  
-bubble_plot_class.R is used to create figure 5B.  
-bubble_plot.R is used for making comprehensive bubble plots highlighting species and class information for genes of interest in figure S3.  
-visualize_treesapp_genes.R generates the bar plot in figure 4C and allow us to compare the performance of PROKKA to TreeSAPP in terms of nitrogen cycle gene identification.  
+* bubble_plot_class.R is used to create figure 5B.  
+* bubble_plot.R is used for making comprehensive bubble plots highlighting species and class information for genes of interest in figure S3.  
+* visualize_treesapp_genes.R generates the bar plot in figure 4C and allow us to compare the performance of PROKKA to TreeSAPP in terms of nitrogen cycle gene identification.  
 
 **Technical limitations** folder contains one script named mean_coverage.R to visualize the coverage information computed by DASTool. This script also makes figure 6. 
