@@ -2,7 +2,7 @@
 
 Denitrification genes were determined to be more abundant than nitrification genes in the anoxic environment of the Saanich Inlet. Using metagenomic analyses, a quantitative assessment of nitrogen cycling gene abundances was conducted where a much higher presence of nitrogen reducing genes was discovered. The most abundant genes found were napA and narG, in suboxic depths between 100m and 200m. Taxonomic analysis of these genes indicated that they are primarily encoded in the gammaproteobacteria class. Together, these results support a global trend of community metabolism shifting from utilizing oxygen to nitrogen as a terminal electron acceptor in response to climate change, in addition to identifying the key community members involved. In fact, a shift towards the denitrification cycle may act to perpetuate climate change through the creation of greenhouse gases, mainly nitrous oxide. Thus, these findings are not only highlighting the importance of reporting increasing nitrogen cycling processes, but can assist in understanding the impact climate change may have on microbial communities of coastal marine environments in light of expanding oxygen minimum zones.   
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/1xnbQ6wJge8sjz4MR1/giphy.gif)
 
 This repo contains the R scripts that were used to generate the figures presented in the metagenomics project paper for the MICB 405 course. You can recreate all the figures in the paper by following the instructions below. 
 
