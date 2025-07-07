@@ -1,7 +1,9 @@
 # Genome-Resolved Metagenomics of Nitrogen Cycling in Saanich Inlet
 
-This repository contains the code and analysis used to generate the figures in our publication:  
+This repository contains the code to replicate the findings in our publication titled:  
 **"Genome-resolved metagenomics of nitrogen cycling processes in Saanich Inlet."**
+
+Access the peer-reviewed publication here: https://ojs.library.ubc.ca/index.php/UJEMI/issue/view/183015
 
 ## Summary
 
@@ -11,7 +13,7 @@ Together, these findings support a global trend where microbial communities shif
 
 ## Repository Overview
 
-This repository includes all R scripts used to generate the figures presented in our metagenomics project for the **MICB 405** course. The repository is structured to allow easy reproduction of our analysis.
+This repository includes all R scripts used in our manuscript.
 
 ### Folder Structure & Script Descriptions
 
