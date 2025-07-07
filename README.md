@@ -1,33 +1,52 @@
-# Saanich inlet diversity :dna: :microscope:  
+# Genome-Resolved Metagenomics of Nitrogen Cycling in Saanich Inlet
 
-This repository contains the relevant code to generate figures and analysis in our publication "Genome-resolved metagenomics of nitrogen cycling processes in Saanich Inlet".
+This repository contains the code and analysis used to generate the figures in our publication:  
+**"Genome-resolved metagenomics of nitrogen cycling processes in Saanich Inlet."**
 
-Denitrification genes were determined to be more abundant than nitrification genes in the anoxic environment of the Saanich Inlet. Using metagenomic analyses, a quantitative assessment of nitrogen cycling gene abundances was conducted where a much higher presence of nitrogen reducing genes was discovered. The most abundant genes found were napA and narG, in suboxic depths between 100m and 200m. Taxonomic analysis of these genes indicated that they are primarily encoded in the gammaproteobacteria class. Together, these results support a global trend of community metabolism shifting from utilizing oxygen to nitrogen as a terminal electron acceptor in response to climate change, in addition to identifying the key community members involved. In fact, a shift towards the denitrification cycle may act to perpetuate climate change through the creation of greenhouse gases, mainly nitrous oxide. Thus, these findings are not only highlighting the importance of reporting increasing nitrogen cycling processes, but can assist in understanding the impact climate change may have on microbial communities of coastal marine environments in light of expanding oxygen minimum zones.   
+## Summary
 
+Denitrification genes were found to be more abundant than nitrification genes in the anoxic environment of Saanich Inlet. Using metagenomic analysis, we quantitatively assessed the abundance of nitrogen cycling genes and discovered a much higher presence of nitrogen-reducing genes. The most abundant were **napA** and **narG**, predominantly found at suboxic depths between 100m and 200m. Taxonomic analysis showed these genes are primarily encoded by members of the **Gammaproteobacteria** class.
 
-This repo contains the R scripts that were used to generate the figures presented in the metagenomics project paper for the MICB 405 course. You can recreate all the figures in the paper by following the instructions below. 
+Together, these findings support a global trend where microbial communities shift from oxygen to nitrogen as the terminal electron acceptor, likely in response to climate change. This shift may further exacerbate climate change through the production of nitrous oxide, a potent greenhouse gas. Reporting on these microbial shifts is essential for understanding how expanding oxygen minimum zones will affect coastal marine ecosystems.
 
-The repository is organized in such a way to allow users who wish to reproduce our analysis to do so in a simple way. The scripts folder is divided into further subdirectories highlighting the main steps we took in our analysis. 
+## Repository Overview
 
-**CC_plots** folder contains two scripts that makes completion - contamination plots for MAGs generated with MaxBin2 and MetaBAT (Figure S1).  
+This repository includes all R scripts used to generate the figures presented in our metagenomics project for the **MICB 405** course. The repository is structured to allow easy reproduction of our analysis.
 
-**Geochemical-water_conditions** folder contains scripts for all figures showing geochemical data (Figure 3, Figure 4A, Figure S2 and S4) across depths and seasons.  
+### Folder Structure & Script Descriptions
 
-**PROKKA** folder contains 2 scripts:  
-* prokka_check_length.R confirms that the gene lengths match in two separate PROKKA outputs.  
-* filter_prokka_by_gene.R filters the PROKKA output to only retain the genes of interest and plot the figure 4B.  
+#### `CC_plots/`
+- **MaxBin2 and MetaBAT MAG Plots (Figure S1)**  
+  Contains scripts to generate completion-contamination plots for MAGs:
+  - `completion_contamination_plot_maxbin.R`
+  - `completion_contamination_plot_metabat.R`
 
-**TreeSAPP** folder contains the following scripts:  
-* bubble_plot_class.R is used to create figure 5B.  
-* bubble_plot.R is used for making comprehensive bubble plots highlighting species and class information for genes of interest in figure S3.  
-* visualize_treesapp_genes.R generates the bar plot in figure 4C and allow us to compare the performance of PROKKA to TreeSAPP in terms of nitrogen cycle gene identification.  
+#### `Geochemical-water_conditions/`
+- **Geochemical Figures (Figure 3, Figure 4A, Figure S2, Figure S4)**  
+  Scripts to visualize geochemical data across depth and seasons.
 
-  
-The following scripts are included in this folder, but we decided not to include the figures they generate in the final manuscript. They are provided here as extra material.  
-* class_bargraphs.R script makes bargraphs showing the most abundant phyla based on TreeSAPP annotations.  
-* species_bargraphs.R script similarly makes bargraphs showing species information.  
-* combined_bargraphs.R script combined information from the two scripts mentioned above makes bargraphs for each gene of interest showing both species and class abundance. 
+#### `PROKKA/`
+- **Gene Annotation Checks and Filtering (Figure 4B)**  
+  - `prokka_check_length.R`: Confirms gene lengths match between PROKKA outputs.  
+  - `filter_prokka_by_gene.R`: Filters output to retain only genes of interest and generate Figure 4B.
 
-**Technical limitations** folder contains one script named mean_coverage.R to visualize the coverage information computed by DASTool. This script also makes figure 6. 
+#### `TreeSAPP/`
+- **Taxonomic Visualization of Nitrogen Cycling Genes (Figures 4C, 5B, S3)**  
+  - `bubble_plot_class.R`: Generates Figure 5B.  
+  - `bubble_plot.R`: Creates comprehensive bubble plots (Figure S3).  
+  - `visualize_treesapp_genes.R`: Produces bar plots (Figure 4C) to compare PROKKA vs. TreeSAPP.
 
-Further clarification and code can be provided by the authors upon request by email. 
+  *Additional scripts not used in the manuscript but provided as supplementary material:*
+  - `class_bargraphs.R`: Bar plots of most abundant phyla based on TreeSAPP.  
+  - `species_bargraphs.R`: Species-level bar plots.  
+  - `combined_bargraphs.R`: Combined class and species bar plots per gene.
+
+#### `Technical limitations/`
+- **Coverage Visualization (Figure 6)**  
+  - `mean_coverage.R`: Visualizes coverage information computed by DASTool.
+
+---
+
+## Contact
+
+For further clarification or access to additional code or data, please contact the authors by email.
