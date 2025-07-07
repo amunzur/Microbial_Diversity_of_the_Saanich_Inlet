@@ -46,9 +46,3 @@ This repository includes all R scripts used in our manuscript.
 #### `Technical limitations/`
 - **Coverage Visualization (Figure 6)**  
   - `mean_coverage.R`: Visualizes coverage information computed by DASTool.
-
----
-
-## Contact
-
-For further clarification or access to additional code or data, please contact the authors by email.
